@@ -1,10 +1,10 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: [
-      "./src/**/*.{html,ts}"  // Asegura que Tailwind escanee tus archivos
-    ],
-    theme: {
-      extend: {},
-    },
-    plugins: [],
-  };
-  
+  content: [
+    "./src/**/*.{html,ts}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
